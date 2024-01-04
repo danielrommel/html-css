@@ -1,0 +1,11 @@
+body{
+	background-image: url('pdv2.jpg');
+	font-size: 30px;
+	font-family: "Comic Sans MS",Arial;
+	color: orange;
+	background-repeat: no-repeat;
+	background-size: 1400px 650px;
+	p{
+		background-color: red;
+	}
+}
