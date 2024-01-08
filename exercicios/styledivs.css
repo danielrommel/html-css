@@ -1,0 +1,48 @@
+/* O símbolo " * " padroniza todo o conteúdo com as regras que você definir*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Comic Sans MS;
+}
+/*class*/
+#logo{
+	float: left;
+}
+#menu{
+	float: right;
+}
+.container{
+	background-color: green;
+	width: 960px;
+	margin:0 auto;
+}
+
+/*IDS*/
+
+#divprincipal{
+	clear: both;
+	color: white;
+	min-height: 400px;
+	background-size: 100%;
+	background-image: url('pp.webp');
+}
+h1{
+	padding: 30px 0px 0px 0px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #111111;
+}
+p{
+	color: white;
+	text-shadow: 2px 2px 2px #111111;
+	text-align: center;
+	font-size: 13px;
+	padding: 30px 0px 0px 0px;
+}
+footer{
+	clear: both;
+	background-color: black;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	padding: 8px;
+}
