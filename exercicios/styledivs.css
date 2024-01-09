@@ -19,6 +19,7 @@
 	text-shadow: 2px 2px #111111;
 }
 #menu a:hover{
+	padding: 20px;
 	color: #add8e6;
 	background-color: purple;
 }
@@ -46,7 +47,7 @@ h1{
 }
 h2{
 	text-align: left;
-	font-size: 50px;
+	font-size: 35px;
 	color: yellow;
 	text-shadow: 2px 2px 2px #111111;
 	padding: 30px 0px 30px 0px;
