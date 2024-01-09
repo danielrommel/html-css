@@ -18,6 +18,11 @@
 	color: yellow;
 	text-shadow: 2px 2px #111111;
 }
+#menu a:hover{
+	color: #add8e6;
+	background-color: purple;
+}
+
 .container{
 	background-color: #add8e6;
 	width: 960px;
