@@ -11,8 +11,13 @@
 #menu{
 	float: right;
 }
+#menu a{
+	text-decoration: none;
+	color: yellow;
+	text-shadow: 2px 2px 2px #111111;
+}
 .container{
-	background-color: green;
+	background-color: #add8e6;
 	width: 960px;
 	margin:0 auto;
 }
@@ -22,6 +27,7 @@
 #divprincipal{
 	clear: both;
 	color: white;
+	text-align: center;
 	min-height: 400px;
 	background-size: 100%;
 	background-image: url('pp.webp');
@@ -30,6 +36,13 @@ h1{
 	padding: 30px 0px 0px 0px;
 	text-align: center;
 	text-shadow: 2px 2px 2px #111111;
+}
+h2{
+	text-align: left;
+	font-size: 50px;
+	color: yellow;
+	text-shadow: 2px 2px 2px #111111;
+	padding: 30px 0px 30px 0px;
 }
 p{
 	color: white;
