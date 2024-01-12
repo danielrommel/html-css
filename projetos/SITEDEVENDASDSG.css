@@ -5,17 +5,15 @@
 }
 .container{
 	margin: 0 auto;
+	background-size: 100%;
 	background-color: #2F4F4F;
-	width: 100%;
 }
+
 h1{
 	float: left;
 	font-size: 60px;
 	color: white;
 	text-shadow: 2px 1px;
-}
-h2{
-	padding: 0px 10px 0px 0px;
 }
 #menu{
 	float: right;
@@ -30,14 +28,42 @@ h2{
 }
 #divprincipal{
 	clear: both;
-	background-color: #696969;
-	margin: 0;
+	margin: 0 auto;
 }
+#divesquerda{
+	text-align: center;
+	float: left;
+	width: 20%;
+	background-color: red;
+}
+#categoria{
+	background-color: #696969;
+	height: 420px;
+	padding: 40px;
+}
+#categoria a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	text-shadow: 1px 1px;
+}
+#categoria a:hover{
+	padding: 20px;
+	color: #add8e6;
+	background-color: orange;
+}
+
+#divdireita{
+	text-align: center;
+	float: right;
+	width: 80%;
+	background-color: green;
+}
+
 table{
-		width: 60%;
-		float: left;
 		background-color: #696969;
-		border-spacing: 10px 10px;
+		border-spacing: 20px 20px;
+		height: 480px;
 }
 img{
 	height: 100px;
@@ -53,8 +79,10 @@ td{
 	color: purple;
 	padding: 3px;
 }
-#div2{
+footer{
+	clear: both;
+	background-color: black;
+	color: white;
 	text-align: center;
-	background-color: green;
+	font-size: 10px;
 }
-	
