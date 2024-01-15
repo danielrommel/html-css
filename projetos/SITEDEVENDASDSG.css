@@ -5,7 +5,7 @@
 }
 .container{
 	margin: 0 auto;
-	background-size: 100%;
+	/*background-size: 100%;*/
 	background-color: #2F4F4F;
 	width: 1300px;
 }
