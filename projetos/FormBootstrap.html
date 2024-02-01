@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+	<html>	
+		<head>
+			<meta charset="utf-8">
+			<title>Formulario com bootstrap</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
+		</head>
+		<body>
+			<div class="container" style="color:white">
+				<header class="row"><div class="col" style="background-color: gray; font-size: 20px;"> PREENCHA O FORMULARIO</div></header>
+					<form>
+						<div class="row">
+							<div class="col-md-4" style="background-color: purple">
+								<h1 style="font-size: 18px">REALIZE SEU CADASTRO</h1>
+								<div>
+									<label style="font-size: 15px">NOME</label>
+									<input type="text" class="form-control">
+								</div>
+								<div>
+									<label style="font-size: 15px">NUMERO</label>
+									<input type="text" class="form-control">
+							    </div>
+								<div>
+									<label style="font-size: 15px">SEXO</label>
+									<select class="form-control">
+										<option>M</option>
+										<option>F</option>
+									</select>
+								</div>							
+								<div>
+									<label style="font-size: 15px">IDADE</label>
+									<input type="text" class="form-control">
+								</div>	
+							</div>
+							<div class="col-md-4" style="background-color: purple"><br>
+								<div>
+									<label style="font-size: 15px;">EMAIL</label>
+									<input type="text" class="form-control">
+								</div>
+								<div>
+									<label style="font-size: 15px">CRIE UMA SENHA</label>
+									<input type="password" name="senha" class="form-control"/>
+								</div>
+								<div>
+									<label style="font-size: 15px">REPITA A SENHA</label>
+									<input type="password" name="senha" class="form-control">
+								</div><br>
+								<div class="form-group">
+									<button type="submit" class="btn btn-success btn-block">Enviar</button>
+								</div>
+							</div>
+							<div class="col-md-4" style="background-color: orange; height: 500px">
+								<h1 style="font-size: 18px">PREENCHA A SOLICITAÇÃO DE LOGIN</h1>
+								<div class="form-group">
+									<label style="font-size: 15px">DIGITE SEU USUARIO</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="form-group">
+									<label style="font-size: 15px">DIGITE SUA SENHA</label>
+									<input type="password" name="senha" class="form-control">
+								</div>
+								<div class="form-group">
+									<input type="submit" name="enviar" value="Logar" class="btn btn-success tbn-block">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12" style="background-color: black; text-align: center;">Desenvolvido por Daniel Marques</div>		
+						</div>
+					</form>
+			</div>
+		</body>
+	</html>

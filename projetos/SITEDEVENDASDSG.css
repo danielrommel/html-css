@@ -35,6 +35,7 @@ h1{
 	background-color: red;
 }
 #categoria{
+	line-height: 30px;
 	background-color: #696969;
 	height: 455px;
 	padding: 40px;
@@ -46,7 +47,7 @@ h1{
 	text-shadow: 1px 1px;
 }
 #categoria a:hover{
-	padding: 20px;
+	padding: 10px;
 	color: #add8e6;
 	background-color: orange;
 }

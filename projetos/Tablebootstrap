@@ -1,0 +1,21 @@
+<!--DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>TableBootstrap</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="pastacss/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="pastacss/bootstrap.theme.mim.css">
+		</head>
+		<body>
+			<div class="container" style="color:green">
+				<header class="col-md-12" style="background-color: gray">TABELAS DE CONSULTAS</header>
+				<div class="row">
+					<div class="col-md-12" style="background-color: yellow">
+					</div>
+					<div class="col-md-12" style="background-color: black; font-size: center;">Desenvolvido por Daniel Marques
+					</div>
+				</div>
+			</div>
+		</body>
+	</html>
